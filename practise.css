@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.square {
+    width: 300px;
+    height: 400px;
+    background-color: aquamarine;
+    display: inline-block;
+    /* margin-left: 20px; */
+    /* margin-top: 30px;  */
+    /* margin-bottom: 50px; */
+    /* margin: 10px; */
+    margin: 20px;
+    /* margin: 20px 0 60px; */
+    /* overflow-y: scroll; */
+    padding: 20px;
+    color: green;
+   border: 5px solid black;
+   border-radius: 50px;
+   border-right-color: blue; 
+   border-right-style: dashed;
+   border-bottom-left-radius: 50%; 
+   
+}
+
+.square p {
+    padding: 20px;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.circle p {
+    color: red;
+    
+}
+
